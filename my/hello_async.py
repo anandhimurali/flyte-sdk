@@ -1,7 +1,7 @@
 # https://www.union.ai/docs/v2/flyte/user-guide/flyte-2/
-# uv run --prerelease allow examples/hello_async.py
-# flyte --config .flyte/config.yaml run examples/hello.py main
-# flyte run --local examples/hello.py main
+# uv run --prerelease allow my/hello_async.py
+# flyte --config .flyte/config.yaml run my/hello_async.py main
+# flyte run --local my/hello_async.py main
 
 import asyncio
 import flyte
